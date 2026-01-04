@@ -11,6 +11,6 @@ int main(int argc, char *argv[]) {
    char command[COMMAND_BUFFER];
    fgets(command, sizeof(command), stdin);
    command[strcspn(command, "\n")] = '\0';
-   printf("%s: Command Not Found", command);
+   printf("%s: command not found", command);
   return 0;
 }
