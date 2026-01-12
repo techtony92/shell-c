@@ -42,6 +42,7 @@ int main(int argc, char *argv[]) {
         command[i - ECHO] = command[i];
       }
       command[len - 1] = '\0';
+      printf("%s\n", command);
       continue;
     }
     
